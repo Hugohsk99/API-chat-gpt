@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +7,53 @@
   <title>Chat GPT</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
-
 <body>
+<div class="container">
+  <div class="menu">
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Chat</a></li>
+      <li><a href="#">Sobre nós</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </div>
   <div class="content">
-    <textarea id="resultadoIA" rows="10" disabled placeholder="Resposta da I.A" style="height: 70%;"></textarea>
+    <!-- Conteúdo do site -->
+  </div>
+</div>
 
-    <textarea id="inputPergunta" placeholder="Pergunte algo" style="height: 20%;"></textarea>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="slide1.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="slide3.jpg" style="width:100%">
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
 
-    <button id="EnviarPergunta">
+      
+  <div class="content">
+    <label for="resultadoIA">Resposta da I.A:</label>
+    <textarea id="resultadoIA" rows="10" disabled aria-describedby="instrucoes"></textarea>
+
+    <label for="inputPergunta">Digite sua pergunta:</label>
+    <textarea id="inputPergunta" aria-describedby="instrucoes" placeholder="Pergunte algo" style="height: 20%;"></textarea>
+
+    <button id="EnviarPergunta" aria-label="Enviar pergunta">
       Enviar mensagem
     </button>
   </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 ChatGPT. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+  
   <script src="script.js"></script>
 </body>
-
 </html>

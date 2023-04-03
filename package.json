@@ -1,0 +1,22 @@
+{
+  "name": "chatgptnode",
+  "version": "1.0.0",
+  "description": "chat gpt api",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hugohsk99/API-chat-gpt.git"
+  },
+  "author": "Hugo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hugohsk99/API-chat-gpt/issues"
+  },
+  "homepage": "https://github.com/Hugohsk99/API-chat-gpt#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

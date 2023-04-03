@@ -1,7 +1,7 @@
 const inputPergunta = document.getElementById("inputPergunta");
 const resultadoIA = document.getElementById("resultadoIA");
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 
 function enviarPergunta() {
 	var valorPergunta = inputPergunta.value;
@@ -76,4 +76,3 @@ function showSlides(n) {
 setInterval(function() {
   plusSlides(1);
 }, 3000);
-
